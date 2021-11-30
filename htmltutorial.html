@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head> <!--css樣式定義 作者訊息 文件關鍵字 URL-->
+        <meta charset="utf-8"> <!--須放在head裡面 編碼方式 作者訊息 關鍵字訊息--> <!--charset 編碼方式-->
+        <meta name="auther" content="李禎"> <!--name裡面有author description keywords generator revised-->
+        <meta name="description" content="李禎的練習網頁網站">
+        <!--<meta http-equiv="refresh" content="5;https://www.youtube.com/">-->
+        <!--上方程式碼可以在五秒後轉入youtube-->
+        <title>我的學習測試網站</title> <!--只有title標籤會顯示在網站-->
+        <style>
+            p.bold{
+                font-weight: bold;
+            }
+            p.italic{
+                font-style: italic;
+            }
+            p.small{
+                font-variant: small-caps;
+            }
+
+        </style>
+    </head>
+
+    <body> <!--文件主體-->
+        <header> <!--頁首-->
+            <h1>標題大小H1</h1> <!--h1~h6-->
+            <h2>標題大小H2</h2>   
+            <p>這是p元素段落</p> <!--段落-->         
+        </header>
+        <br> <!--換行-->
+        <section> <!--文件某個區域-->
+            <pre>
+                安安你好我姓李，
+                這可以保持文件，
+                原始的文件樣式。
+            </pre>            
+        </section>
+        <hr> <!--水平線-->
+        <section>
+            <p>這是使用<b>b粗體</b>顯示</p>
+            <p>這是使用<strong>strong粗體</strong>顯示</p>
+            <hr>
+            <p>這是使用<i>i斜體</i>顯示</p>
+            <p>這是使用<em>em斜體</em>顯示</p>
+            <p>這是使用<mark>mark</mark>顯示</p>
+            <p>這是使用<small>small小型字</small>顯示</p>
+        </section>
+        <hr>
+        <section>
+            <p>這是引用李禎<q>我很好</q>的句子</p> <!--雙引號-->
+            <p> <blockquote> <!--引用長篇文章-->
+                    我們同是一家清，不因利益而相侵，相處時好又時壞
+                    <br>
+                    喃喃入睡到隔日，想到過去不堪事，心頭不免皺又皺
+                </blockquote>
+            </p>
+        </section>
+        <hr>
+        <section>
+            <pre>
+            <code> <!--寫程式碼時候可用到-->
+                int main () {
+                    printf("hello world!")
+                    return 0;
+                }
+            </code>
+            </pre>
+        </section>
+        <hr>
+        <section>
+            <abbr title="縮寫">abbr</abbr>是用來定義縮寫
+            <p><dfn>dfn</dfn>是用來定義，以斜體輸出</p>
+            <p>ins<ins>用來表示新增加的資料</ins></p>
+            <p>del<del>用刪除線表示</del></p>
+            <p>
+                左到右:<bdo dir="ltr">李國禎</bdo>
+                <br>
+                右到左:<bdo dir="rtl">李國禎</bdo>
+            </p>
+            <p><ruby>李國禎<rt>ㄌ一ˇㄍㄨㄛˊㄓㄣ</rt></ruby></p>
+            <p>上標:X<sup>2</sup></p>
+            <p>下標:X<sub>2</sub></p>
+        </section>
+        <hr>
+        <section>
+            <!--a是超連結元素 通常搭配href="URL"-->
+            <a href=https://www.youtube.com/>點我前往youtube</a>
+            <!--a:元素 href:元素屬性 https://www.youtube.com/:元素屬性內容 youtube:m元素內容-->
+            <br>
+            <!--增加 target 可以指定開啟瀏覽器頁面的方式-->
+            <p>將在目前的頁面:<a href="https://www.gamer.com.tw/index2.php?ad=N" target="_self">點擊前往巴哈姆特</a>面</p><br>
+            <p>將在新增的頁面:<a href="https://www.gamer.com.tw/index2.php?ad=N" target="_blank">點擊前往巴哈姆特</a></p><br>
+            <p>將在目前的頁面有父層級，在父層級頁面:<a href="https://www.gamer.com.tw/index2.php?ad=N" target="_parent">點擊前往巴哈姆特</a></p><br>
+            <p>將在目前的頁面最頂端顯示:<a href="https://www.gamer.com.tw/index2.php?ad=N" target="_top">點擊前往巴哈姆特</a></p><br>      
+            <a href="index.html">前往另外的html</a>      
+        </section>
+        <hr>
+        <footer> <!--頁尾-->
+            <p>頁尾小提示</p>
+        </footer>
+        <hr>
+        <p class="bold">這是粗體字有normal bold light</p>
+        <p class="italic">這是斜體字normal italic oblique</p>
+        <p class="small">SMALL-CAPS</p>
+        
+    </body>
+</html>
